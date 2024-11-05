@@ -92,16 +92,16 @@
     box-shadow: 0 3px 3px #21DADB;
   }
 
-  .partner-section {
+.partner-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 40px;
-  }
+}
   
-  .paragraph-card {
+.paragraph-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -112,24 +112,44 @@
     max-width: 400px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+}
   
-  .paragraph-card:hover {
+.paragraph-card:hover {
     transform: translateY(-10px);
-  }
+}
   
-  .paragraph-card h3 {
+.paragraph-card h3 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
-  }
+}
   
-  .paragraph-card p {
+.paragraph-card p {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-  }
+}
   
-  .partner-section>div>h3{
+.partner-section>div>h3{
     color: white;
-  }
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 20%;
+    gap: 30px;
+    padding: 100px;
+}
+
+.footer>h3{
+    font-size: 30px;
+}
+
+.footer span{
+    font-size: 18px;
+    font-weight: bold;
+}
