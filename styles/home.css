@@ -42,3 +42,28 @@
 .contact-btn{
     font-weight: bold;
 }
+
+.cards-container{
+    width: 100%;
+    height: auto;
+}
+
+.cards-title{
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    
+    width: 250px;
+    height: 140px;
+}
