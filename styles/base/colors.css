@@ -1,0 +1,23 @@
+.primary-bg{
+    background-color:#21DADB;
+ }
+ 
+.secondary-bg{
+    background-color:#35BBDF;
+}
+
+.tertiary-bg{
+    background-color:#4D94E6;
+}
+
+.primary-txt{
+    color: #21DADB;
+}
+
+.black-txt{
+    color: #000000;
+}
+
+.white-txt{
+    color: #ffffff;
+}
