@@ -69,7 +69,7 @@
     width: 250px;
     height: 270px;
     font-size: 12px;
-    border-top: 2px solid #21DADB;
+    border-top: 0.5px solid #21DADB;
     padding: 10px;
     align-items: center;
     text-align: center;
@@ -88,5 +88,7 @@
 
 .card:hover {
     transform: scale(1.05);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
     box-shadow: 0 3px 3px #21DADB;
   }
+
