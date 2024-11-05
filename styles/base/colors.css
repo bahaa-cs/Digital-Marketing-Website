@@ -10,6 +10,10 @@
     background-color:#4D94E6;
 }
 
+.white-bg{
+    background-color: #ffffff;
+}
+
 .primary-txt{
     color: #21DADB;
 }
@@ -20,4 +24,8 @@
 
 .white-txt{
     color: #ffffff;
+}
+
+.primary-gradient{
+    background-image: linear-gradient(to right, white , #35BBDF);
 }

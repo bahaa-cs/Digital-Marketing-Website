@@ -1,0 +1,40 @@
+.hero{
+    width: 100%;
+    height: 100vh; 
+}
+
+.hero-left-section{
+    width: 50%;
+    height: 100%;
+    padding: 50px 40px 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.hero-title{
+    font-size: 27px;
+    font-weight: bold;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.hero-subtitle{
+    font-size: 14px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+.hero-right-section{
+    width: 50%;
+    height: 100%; 
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.hero-right-section>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
