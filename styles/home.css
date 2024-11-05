@@ -63,7 +63,18 @@
 
 .card{
     display: flex;
-    
+    flex-direction: column;
+    gap: 10px;
     width: 250px;
     height: 140px;
+    font-size: 10px;
+    border-top: 2px solid #21DADB;
+    padding: 5px;
+    align-items: center;
+}
+
+.card>img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
