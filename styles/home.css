@@ -73,7 +73,7 @@
     padding: 10px;
     align-items: center;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .card>img{
@@ -92,3 +92,41 @@
     box-shadow: 0 3px 3px #21DADB;
   }
 
+  .partner-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .paragraph-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: linear-gradient(#35BBDF,white);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .paragraph-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .paragraph-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .paragraph-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
